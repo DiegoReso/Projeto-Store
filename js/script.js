@@ -17,3 +17,24 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+
+const btnMenu = document.querySelector('#menu')
+const submenu = document.querySelector('#submenu')
+let flag = 0
+
+btnMenu.addEventListener('click', function(){
+  
+  if(flag === 0){
+    submenu.classList.add('visible')
+    flag = 1
+    btnMenu.innerHTML = `<img src="images/close.gif" alt="menu"  height="25px" width="32px">`
+    
+  }
+  else{
+    submenu.classList.remove('visible')
+    flag = 0
+    btnMenu.innerHTML = `<img src="images/menu.png" alt="menu">`
+  }
+  
+})

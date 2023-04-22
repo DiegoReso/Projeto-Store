@@ -2,10 +2,18 @@
 @import 'news.css';
 @import 'header.css';
 @import 'products.css';
+@import 'products.css';
 
 *{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: 'Darker Grotesque', sans-serif;
+}
+
+.title{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 45px;
+  
 }

@@ -52,6 +52,17 @@ i{
   left: 2px;
 }
 
+
+
+.hide{
+  display: none;
+}
+
+.visible{
+  display: block;
+}
+
+
 @media (max-width: 430px){
 
   #container-all{
@@ -65,9 +76,29 @@ i{
   }
 
   #nav{
-    width: 200px;
-    flex-wrap: wrap;
+    width: 150px;
+    flex-direction: row-reverse;
     justify-content: space-around;
+  }
+
+  #nav-1,#nav-2,#nav-3{
+    display: none;
+    margin-bottom:5px ;
+  }
+
+
+  #nav-3,#nav-4{
+    margin-top: 5px;
+    margin-right: 3px;
+  }
+
+  #nav span{
+    margin-top: 15px;
+  }
+
+  #nav-4 a{
+    border-right: none;
+    
     
   }
 
@@ -79,14 +110,36 @@ i{
     
   }
 
-  #nav-1,#nav-2{
-    margin-bottom:5px ;
+  #nav #menu{
+    display: block;
+    
   }
 
-
-  #nav-3,#nav-4{
-    margin-top: 5px;
-    margin-right: 3px;
-  }
+  #submenu{
+    position: absolute;
+    background-color: rgb(236, 36, 36);
+    left:200px;
 }
 
+#submenu a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size:15px ;
+  
+}
+
+#submenu li{
+  list-style: none;
+
+
+}
+
+
+
+
+#submenu ul{
+  width: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+}
