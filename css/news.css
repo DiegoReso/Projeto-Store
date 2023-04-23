@@ -21,8 +21,8 @@
 
 #wrapper-news h1{
   position: absolute;
-  left:600px;
-  
+  width: 300px;
+  margin-left: 350px;
 
 }
 
@@ -31,11 +31,20 @@
   #wrapper-news{
     width: 430px;
     flex-direction: column;
-    height: 650px;
+    height: 800px;
     justify-content: space-between;
     font-size: 12px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
   }
 
+  #wrapper-news h1{
+    position: absolute;
+    width: 300px;
+    bottom: 175px;
+    margin-left: 65px;
+    font-size: 30px;
+  
+  }
 }
