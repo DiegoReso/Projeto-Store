@@ -38,3 +38,11 @@ btnMenu.addEventListener('click', function(){
   }
   
 })
+
+
+
+const btn = document.querySelectorAll('.btnBuy')
+
+
+btn[0].addEventListener('click', ()=> console.log('oin'))
+

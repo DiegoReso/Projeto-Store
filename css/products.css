@@ -24,6 +24,12 @@
   
 }
 
+#title-products{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 45px;
+}
+
 #details button{
   margin-top: 32px;
   border: 1px solid red;
@@ -32,10 +38,11 @@
   font-weight: bold;
   font-size: 20px;
   padding: 2px 10px 8px 8px;
+  cursor: pointer;
   
 }
 
-#wrapper-products{
+.wrapper-products{
   display: flex;
 
 }
@@ -52,6 +59,27 @@
     width: 430px;
     height: 1000px;
   }
+
+  .wrapper-products{
+    width: 300px;
+    
+  }
+
+  #title-products{
+    font-size: 30px;
+    
+  }
+
+  
+#details p,span{
+  font-size: 17px;
+  font-weight: bold;
+  
+}
+
+#details button{
+margin-top:5px ;
+}
 
 
 }
