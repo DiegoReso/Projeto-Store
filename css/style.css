@@ -3,6 +3,8 @@
 @import 'header.css';
 @import 'products.css';
 @import 'products.css';
+@import 'foot.css';
+@import 'footer.css';
 
 *{
   box-sizing: border-box;

@@ -1,0 +1,26 @@
+.foot{
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.foot form{
+  display: flex;
+  margin-top: 30px;
+  padding-bottom: 50px;
+  justify-content: center;
+  gap: 10px;
+}
+
+#email{
+  width: 230px;
+  outline: none;
+}
+
+form button{
+  width: 100px;
+  color: grey;
+  font-weight: bold;
+}

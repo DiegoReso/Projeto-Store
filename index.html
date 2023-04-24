@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="script.js" defer></script>
+  <script src="/js/script.js" defer></script>
   <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;700&family=Six+Caps&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -58,7 +58,7 @@
         <img src="images/img3.jpg"alt="Products">
       </div>
       <div class="mySlides fade">
-        <img src="images/img4.jpg"alt="Products" >
+        <img src="images/img4.jpg"alt="Products">
       </div>
       <div class="mySlides fade">
         <img src="images/img5.jpg" alt="Products">
@@ -101,9 +101,12 @@
 
   <section id="products-container">
 
-    
     <div class="wrapper-products">
-      <img src="images/produto-teste.jpg" alt="Products">
+      <div class="img">
+        <img src="images/produto-teste.jpg" alt="Products">
+        <span class="close">x</span>
+        <span class="close-details">remove from cart</span>
+      </div>
       <div id="details">
         <p>Product Title</p>
         <p>Description</p>
@@ -113,7 +116,13 @@
     </div>
     
     <div class="wrapper-products">
-      <img src="images/produto-teste.jpg" alt="Products">
+      
+      <div class="img">
+        <img src="images/produto-teste.jpg" alt="Products">
+        <span class="close1">x</span>
+        <span class="close-details1">remove from cart</span>
+      </div>
+      
       <div id="details">
         <p>Product Title</p>
         <p>Description</p>
@@ -123,7 +132,13 @@
     </div>
 
     <div class="wrapper-products">
-      <img src="images/produto-teste.jpg" alt="Products">
+
+
+      <div class="img">
+        <img src="images/produto-teste.jpg" alt="Products">
+        <span class="close2">x</span>
+        <span class="close-details2">remove from cart</span>
+      </div>
       <div id="details">
         <p>Product Title</p>
         <p>Description</p>
@@ -133,7 +148,13 @@
     </div>
 
     <div class="wrapper-products">
-      <img src="images/produto-teste.jpg" alt="Products">
+
+      <div class="img">
+        <img src="images/produto-teste.jpg" alt="Products">
+        <span class="close3">x</span>
+        <span class="close-details3">remove from cart</span>
+      </div>
+
       <div id="details">
         <p>Product Title</p>
         <p>Description</p>
@@ -143,8 +164,22 @@
     </div>
     
   </section>
+
+  <section class="foot">
+    <h1>Get the latest deals and more.</h1>
+
+    <form action="">
+      <input type="email" name="email" id="email">
+      <button>Submit</button>
+    </form>
+
+  </section>
+ 
 </section>
 
+<footer>
+  <p>Desenvolvido por Diego Reis</p>
+</footer>
 
 
   <script src="js/script.js"></script>
