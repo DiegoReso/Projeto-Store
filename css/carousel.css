@@ -7,6 +7,7 @@
   margin-right: auto;
   gap: 15px;
   
+  
 }
 
 .more-products{
@@ -75,3 +76,32 @@ box-shadow: 1px 1px 2px black;
   overflow: hidden;
 }
 
+@media (max-width: 430px){
+
+  .wrapper-more{
+     width: 300px;
+     margin-top: 0;
+  }
+
+
+
+  .wrapper-item{
+    width: 250px;
+    overflow: hidden;
+    height: 200px;
+  }
+
+  .more-products .fa-solid.fa-angle-right{
+  
+    left: 355px;
+   
+  }
+
+  .more-products .fa-solid.fa-angle-left{
+  
+    left: 35px;
+   
+  }
+
+
+}

@@ -32,3 +32,13 @@ form button{
   border-radius: 2px;
   font-size: 18px;
 }
+
+
+@media (max-width: 430px){
+
+    
+.foot{
+  width: 430px;
+}
+
+}
