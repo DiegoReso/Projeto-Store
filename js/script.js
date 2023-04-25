@@ -49,6 +49,7 @@ const close_img1 = document.querySelector('.close1')
 const close_img2 = document.querySelector('.close2')
 const close_img3 = document.querySelector('.close3')
 
+
 let count = 0
 
 btn[0].addEventListener('click', ()=>{
@@ -89,6 +90,10 @@ btn[3].addEventListener('click', ()=>{
   btn[3].textContent = 'Added to Cart'
   close_img3.classList.add('visible')
 })
+
+
+
+
 
 
 close_img.addEventListener('click', ()=>{
@@ -151,3 +156,35 @@ close_img3.addEventListener('click', ()=>{
 
 })
 
+const next = document.querySelector('#next')
+const previous =document.querySelector('#previous')
+const wrapper = document.querySelector('.wrapper-more')
+let pixels = 0
+
+next.addEventListener('click', ()=>{
+  if(pixels === 900){
+    pixels = 0
+    wrapper.style = `transform: translateX(${pixels}px)`
+  }else{
+    pixels = pixels + 100
+    wrapper.style = `transform: translateX(${pixels}px)`
+  }
+})
+
+previous.addEventListener('click', ()=>{
+
+  if(pixels === -2100){
+    pixels = 0
+    wrapper.style = `transform: translateX(${pixels}px)`
+  }else{
+    pixels = pixels - 100
+    wrapper.style = `transform: translateX(${pixels}px)`
+  }
+  })
+  
+
+  const btnForm = document.querySelector('#btn-form')
+
+  btnForm.addEventListener('click',(e)=>{
+    e.preventDefault()
+  })

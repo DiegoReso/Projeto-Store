@@ -5,6 +5,7 @@
 @import 'products.css';
 @import 'foot.css';
 @import 'footer.css';
+@import 'carousel.css';
 
 *{
   box-sizing: border-box;
